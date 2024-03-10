@@ -82,13 +82,12 @@ a:active {
     }
 
     .content-page {
-        padding: 10px;
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .grace-hopper-image {
-        float: none;
-        margin: 0 auto;
-        display: block;
-        border-radius: 25px;
+        float: none; 
+        margin-bottom: 15px; 
     }
 }
