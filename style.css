@@ -69,3 +69,26 @@ a:active {
     color: #8892B1ff;
     padding: 5px;
 }
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 12px;
+        padding: 15px;
+    }
+
+    .container {
+        max-width: 100%;
+        min-width: unset;
+    }
+
+    .content-page {
+        padding: 10px;
+    }
+
+    .grace-hopper-image {
+        float: none;
+        margin: 0 auto;
+        display: block;
+        border-radius: 25px;
+    }
+}
